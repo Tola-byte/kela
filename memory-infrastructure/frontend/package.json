@@ -1,0 +1,23 @@
+{
+  "name": "memory-infrastructure-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "next": "14.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "@instantdb/react": "latest"
+  },
+  "devDependencies": {
+    "typescript": "5.x",
+    "@types/react": "18.x",
+    "@types/node": "20.x",
+    "eslint": "latest"
+  }
+}
